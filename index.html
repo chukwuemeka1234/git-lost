@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This my HTML</title>
+    </head>
+    <body>
+        <!--this is the heading-->
+        <h1>Heading One</h1>
+        <h2>Heading two</h2>
+        <h3>Heading three</h3>
+        <h4>Heading four</h4>
+        <h5>Heading five</h5>
+        <h6>Heading six</h6>
+
+        <!--this is the paragraph-->
+        <p>
+            Lorem ipsum <em>dolor</em> sit amet consectetur<strong> adipisicing elit.</strong> Recusandae, rem!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="http://google.com">Neque ut optio</a> quae quis! Accusantium, sed provident aliquid molestiae facere incidunt molestias ipsam maxime. Repudiandae, quam. Eum debitis deserunt cumque perferendis.
+        </p>
+        <!--lists-->
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+            <li>item 5</li>
+        </ul>
+
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+            <li>item 5</li>
+        </ol>
+
+        <!--Tables-->
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Location</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>john host</td>
+                    <td>32</td>
+                    <td>Enugu</td>
+                    <td>johnhost@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Amaka chinwe</td>
+                    <td>37</td>
+                    <td>Ebonyi</td>
+                    <td>amakachi@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Arinze chukwu</td>
+                    <td>21</td>
+                    <td>Lagos</td>
+                    <td>chukwuarinze@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr>
+        <br>
+
+        <!--forms-->
+
+        <form action="process.php" method="POST">
+            <div>
+                <label for="">First Name</label>
+                <input type="text" name="firstName" placeholder="Enter your name">
+            </div>
+            <br>
+            <div>
+                <label for="">Last Name</label>
+                <input type="text" name="firstName">
+            </div>
+            <br>
+            <div>
+                <label for="">Email</label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label for="">Message</label>
+                <textarea name="message" id="" cols="30" rows="5"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="">Gender</label>
+                <select name="gender" id="">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="">Age</label>
+               <input type="number" name="age" value="30">
+            </div>
+            <br>
+            <div>
+                <label for="">Birthday</label>
+               <input type="date" name="birthday">
+            </div>
+            <br>
+            <input type="submit" name ="Submit" value="submit">
+        </form>
+
+        <!--button-->
+        <button>Click Me</button>
+
+
+        <div style="margin-top:500px"></div>
+
+      
+    </body>
+</html>
